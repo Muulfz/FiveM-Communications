@@ -19,7 +19,7 @@ namespace FiveMCommunications.Server.Rpc
 		private static EventHandlerDictionary _events;
 		private static PlayerList _players;
 
-		internal static void Configure(LogLevel level, EventHandlerDictionary eventHandler, PlayerList playerList)
+		public static void Configure(LogLevel level, EventHandlerDictionary eventHandler, PlayerList playerList)
 		{
 			_logger = new FivemCommunicationsLogger(level, "RPC");
 			_events = eventHandler;
