@@ -71,10 +71,10 @@
     <Compile Include="Diagnostics\FiveMCommunicationsLogger.cs" />
     <Compile Include="Events\EventManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RPC\InboundMessage.cs" />
-    <Compile Include="RPC\OutboundMessage.cs" />
-    <Compile Include="RPC\RpcManager.cs" />
-    <Compile Include="RPC\RpcPacker.cs" />
+    <Compile Include="Rpc\InboundMessage.cs" />
+    <Compile Include="Rpc\OutboundMessage.cs" />
+    <Compile Include="Rpc\RpcManager.cs" />
+    <Compile Include="Rpc\RpcPacker.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
