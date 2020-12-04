@@ -1,11 +1,11 @@
-namespace FiveMCommunications.Client.Comunications
+namespace FiveMCommunications.Client.Communications
 {
-    using System;
-    using Contracts;
-    using Events;
-    using RPC;
-	
-    public class CommunicationMessage : ICommunicationMessage
+	using System;
+	using Contracts;
+	using Events;
+	using Rpc;
+
+	public class CommunicationMessage : ICommunicationMessage
 	{
 		private readonly EventManager _eventManager;
 

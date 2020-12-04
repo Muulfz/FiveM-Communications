@@ -1,8 +1,8 @@
-namespace FiveMCommunications.Client.Comunications.Contracts
+namespace FiveMCommunications.Client.Communications.Contracts
 {
-    using System;
+	using System;
 
-    public interface ICommunicationReceive
+	public interface ICommunicationReceive
 	{
 		/// <summary>
 		/// Registers the specified callback.

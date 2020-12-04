@@ -1,10 +1,10 @@
-namespace FiveMCommunications.Client.Comunications
+namespace FiveMCommunications.Client.Communications
 {
-    using System;
-    using Contracts;
-    using RPC;
+	using System;
+	using Contracts;
+	using Rpc;
 
-    public class CommunicationReceiveServer : ICommunicationReceiveServer
+	public class CommunicationReceiveServer : ICommunicationReceiveServer
 	{
 		private readonly CommunicationTarget _target;
 		public CommunicationReceiveServer(CommunicationTarget target)

@@ -4,7 +4,7 @@
     using System.Linq;
     using Core.Diagnostics;
     using Core.Events;
-    using RPC;
+    using Rpc;
 
     public class FiveMCommunicationsLogger : ILogger
     {

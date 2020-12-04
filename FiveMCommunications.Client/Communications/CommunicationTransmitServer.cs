@@ -1,9 +1,9 @@
-namespace FiveMCommunications.Client.Comunications
+namespace FiveMCommunications.Client.Communications
 {
-    using System;
-    using System.Threading.Tasks;
-    using Contracts;
-    using RPC;
+	using System;
+	using System.Threading.Tasks;
+	using Contracts;
+	using Rpc;
 
 	public class CommunicationTransmitServer : ICommunicationTransmitServer
 	{

@@ -5,8 +5,8 @@
     using System.Linq;
     using System.Threading.Tasks;
     using CitizenFX.Core;
-    using Comunications;
-    using Comunications.Contracts;
+    using Communications;
+    using Communications.Contracts;
     using Core;
     using Core.Diagnostics;
     using Core.Events;

@@ -4,8 +4,8 @@
     using System.Collections.Generic;
     using System.Linq;
     using System.Threading.Tasks;
-    using Comunications;
-    using Comunications.Contracts;
+    using Communications;
+    using Communications.Contracts;
     using Core.Diagnostics;
     using Diagnostics;
 

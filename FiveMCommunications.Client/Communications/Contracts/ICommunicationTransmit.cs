@@ -1,9 +1,9 @@
-﻿namespace FiveMCommunications.Client.Comunications.Contracts
+﻿namespace FiveMCommunications.Client.Communications.Contracts
 {
-    using System;
-    using System.Threading.Tasks;
+	using System;
+	using System.Threading.Tasks;
 
-    public interface ICommunicationTransmit
+	public interface ICommunicationTransmit
     {
         /// <summary>
 		/// Emits the specified payloads.

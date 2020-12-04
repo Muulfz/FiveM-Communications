@@ -1,11 +1,11 @@
-namespace FiveMCommunications.Client.Comunications
+namespace FiveMCommunications.Client.Communications
 {
-    using System;
-    using System.Threading.Tasks;
-    using Contracts;
-    using Events;
-	
-    public class CommunicationTransmitClient : ICommunicationTransmitClient
+	using System;
+	using System.Threading.Tasks;
+	using Contracts;
+	using Events;
+
+	public class CommunicationTransmitClient : ICommunicationTransmitClient
 	{
 		public string Event { get; }
 

@@ -1,9 +1,9 @@
-namespace FiveMCommunications.Client.Comunications
+namespace FiveMCommunications.Client.Communications
 {
-    using Contracts;
-    using Events;
+	using Contracts;
+	using Events;
 
-    public class CommunicationManager : ICommunicationManager
+	public class CommunicationManager : ICommunicationManager
 	{
 		private readonly EventManager _eventManager;
 

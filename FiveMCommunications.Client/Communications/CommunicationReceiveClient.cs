@@ -1,10 +1,10 @@
-namespace FiveMCommunications.Client.Comunications
+namespace FiveMCommunications.Client.Communications
 {
-    using System;
-    using Contracts;
-    using Events;
+	using System;
+	using Contracts;
+	using Events;
 
-    public class CommunicationReceiveClient : ICommunicationReceiveClient
+	public class CommunicationReceiveClient : ICommunicationReceiveClient
 	{
 		public string Event { get; }
 
