@@ -1,4 +1,4 @@
-﻿namespace FiveMCommunications.Client.RPC
+﻿namespace FiveMCommunications.Client.Rpc
 {
     using System.Globalization;
     using System.IO;

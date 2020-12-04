@@ -1,4 +1,4 @@
-﻿namespace FiveMCommunications.Client.RPC
+﻿namespace FiveMCommunications.Client.Rpc
 {
     using System;
     using System.Collections.Generic;
